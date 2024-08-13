@@ -1,0 +1,2 @@
+gcc test.c -c ./zlib/*.c ./zlib/minizip/ioapi.c ./zlib/minizip/unzip.c -D USE_CRYPT -I ./zlib/minizip
+gcc -o checked_solution ./*.o

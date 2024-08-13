@@ -1,0 +1,1 @@
+gcc main.c matrixsqr.c -L . -l openblas -o checked_solution -l pthread
